@@ -26,7 +26,7 @@ const Navbar = () => {
       }, [])
       
   return (
-    <div className={ header ? "bg-[white] flex justify-between py-3 px-10 fixed top-0 w-full z-10" : "py-5 transition ease-in-out transition-duration: 2000ms flex justify-between p-6 px-10 fixed top-0 w-full z-10"}>
+    <div className={`flex justify-between px-10 fixed top-0 w-full z-10 ${header ? 'bg-white py-3' : 'py-5'} transition duration-2000 ease-in-out`}>
         <div className="flex gap-12 items-center">        
             <Image
                 className={ header ? "mr-2 h-[20px] w-[100px]" : "mr-2 h-[23px] w-[110px]" }

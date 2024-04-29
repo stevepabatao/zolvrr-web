@@ -18,44 +18,46 @@ const SearchForm = () => {
   const form = useForm();
 
   return (
-    <div className="grid w-full items-end gap-1 rounded-lg bg-white sm:grid-cols-2 lg:grid-cols-3 p-6 filter drop-shadow-lg mt-10">
+    <div className="mt-10 bg-white p-6 filter drop-shadow-lg">
+        <div className="flex block ">
+            <Button className=" housal-tab px-4 text-sm rounded-t-lg rounded-b-none">
+                Rent
+            </Button> 
+            <Button className=" housal-tab px-4 text-sm rounded-t-lg rounded-b-none">
+                Buy
+            </Button>   
+        </div>
+        <Separator className="my-1" />
+        <div className="flex w-full items-start gap-1 rounded-lg">
+        
         <Form {...form}>
 
-              <FormField 
-                control={ form.control } 
-                name="Address" 
-                render={({field}) => {
-                return (
+        <div className=" w-full">
+            <FormField
+                className=" border-white"
+                control={form.control}
+                name="Address"
+                render={({ field }) => (
                     <FormItem>
-                        <Select>
-                            <SelectTrigger>
-                                <SelectValue placeholder="Type"/>
-                            </SelectTrigger>
-                            <SelectContent>
-                                <SelectItem value="buy">Buy</SelectItem>
-                                <SelectItem value="sell">Sell</SelectItem>
-                                <SelectItem value="rent">Rent</SelectItem>
-                            </SelectContent>
-                        </Select>
-                    </FormItem> 
-                )
-            }}></FormField>
-
-            <FormField 
-                control={ form.control } 
-                name="Address" 
-                render={({field}) => {
-                return (
-                    <FormItem>
-                        <FormControl>
-                            <Input placeholder="Search by Address"/>
-                        </FormControl>
+                    <FormControl>
+                        <Input placeholder="Search by Address" class="w-full py-2 px-4 text-xl" />
+                    </FormControl>
                     </FormItem>
-                )
-            }}></FormField>
-            <Button className="hover:bg-red-700 housal-button" type="submit" >Search</Button>
-        </Form>              
+                )}
+                >
+            </FormField>
+        </div>
+
+        <div className=" w-20">
+            <Button className="hover:bg-red-700 housal-button py-1 px-4 text-sm">
+            Search
+            </Button>            
+        </div>
+
+        </Form>
+        </div>
     </div>
+
   )
 }
 

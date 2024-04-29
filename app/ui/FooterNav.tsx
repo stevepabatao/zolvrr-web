@@ -4,8 +4,8 @@ import Link from "next/link"
 
 const FooterNav = () => {
   return (
-    <div>
-        <div className="text-white pt-5 flex justify-center items-center">
+    <div >
+        <div className="text-white flex justify-center items-center">
             <ul className=" md:flex gap-10">
                 <Link href={'/'}>
                     <li className="hover:text-primary font-medium text-sm cursor-pointer">

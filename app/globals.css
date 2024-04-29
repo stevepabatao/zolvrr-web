@@ -96,6 +96,10 @@
    }
   }
 
+  .no-border {
+    border-color: white;
+  }
+
   .housal-button {
     background: rgb(0, 31, 63);
   }
@@ -104,23 +108,25 @@
     background: rgb(1, 100, 199) !important;
   }
 
-  .header-bg-1 {
-    background-image:url("../public/hero-bg-2.png"); 
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    min-height: 10vh;
+  .housal-tab {
+    background: rgb(255,255,255) !important;
+    border-bottom: #777777;
+    color: #777777;
   }
 
-  .header-bg-2 {
-    background-image:  url("../public/hero-bg-2.png");
-    background-repeat:no-repeat;
-    background-position: top;
-    background-size: cover;
-    min-height: 40vh;
+  .housal-tab:hover {
+    background: rgb(255,255,255) !important;
+    border-bottom-style: solid;
+    font-weight: bolder;
+    color:#777777;
   }
 
+  .housal-tab:active {
+    background: rgb(255,255,255) !important;
+    border-bottom-style: solid;
+    font-weight: bolder;
+    color:#777777;
+  }
 
 
   .cta {
@@ -154,7 +160,7 @@
     background-repeat: repeat-x; /* Repeat the image only horizontally */
     background-position: center top;
     object-fit: cover;
-    animation: slideHorizontal infinite linear 120s; /* Adjust animation duration as needed */
+    animation: slideHorizontal infinite linear 20s; /* Adjust animation duration as needed */
   }
   
   @keyframes slideHorizontal {
