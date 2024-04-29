@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const FooterNav = () => {
   return (
-    <div >
+    <div className="py-20">
         <div className="text-white flex justify-center items-center">
             <ul className=" md:flex gap-10">
                 <Link href={'/'}>

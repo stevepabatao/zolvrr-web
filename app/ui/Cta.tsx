@@ -8,11 +8,11 @@ const Cta = () => {
         <p className="text-gray-600 tracking-widest text-md mb-3 md:mb-5">
           ALL PROPERTY NEEDS - ONE PORTAL
         </p>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl tracking-wider">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl tracking-wider ">
           Find Better Places to Live, <br />Work and Wonder...
         </h2>
       </div>
-      <div className="flex flex-col items-center md:flex-row md:justify-center">
+      <div className="flex flex-col items-center md:flex-row md:justify-center align-text-top box-check">
         <div className="mb-8 md:mr-8 md:mb-0">
           <Image
             className="rounded-2xl"
@@ -22,7 +22,7 @@ const Cta = () => {
             alt="Call to Action Image"
           />
         </div>
-        <div className="text-left align-text-top flex flex-col justify-start">
+        <div className="text-left  flex flex-col justify-start">
           <p className="text-gray-600 tracking-widest text-md mb-3">
             BUY A HOME
           </p>
