@@ -18,7 +18,7 @@ const SearchForm = () => {
   const form = useForm();
 
   return (
-    <div className="mt-10 bg-white p-6 filter drop-shadow-lg">
+    <div className="mt-10 bg-white p-6 filter drop-shadow-lg rounded-xl">
         <div className="flex block ">
             <Button className=" housal-tab px-4 text-sm rounded-t-lg rounded-b-none">
                 Rent

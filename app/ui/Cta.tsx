@@ -12,7 +12,7 @@ const Cta = () => {
           Find Better Places to Live, <br />Work and Wonder...
         </h2>
       </div>
-      <div className="flex flex-col items-center md:flex-row md:justify-center align-text-top box-check">
+      <div className="flex flex-col items-center md:flex-row md:justify-center align-text-top">
         <div className="mb-8 md:mr-8 md:mb-0">
           <Image
             className="rounded-2xl"
