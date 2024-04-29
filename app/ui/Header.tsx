@@ -4,7 +4,7 @@ import Explore from "./Explore";
 
 const Header = () => {
   return (
-    <div flex>
+    <div>
         <Navbar />
         <Hero />
         <Explore />
