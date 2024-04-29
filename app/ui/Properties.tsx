@@ -29,12 +29,12 @@ const Properties = () => {
       </div>
       <div className="flex flex-wrap items-center justify-center">
 
-        <Carousel className="mx-1 max-w-[60%] ">
+        <Carousel className="mx-1 max-w-[1200px] ">
           <CarouselContent className="-ml-1">
             {Array.from({ length: 5 }).map((_, index) => (
               <CarouselItem key={index} className="basis-3.5 md:basis-1/8 lg:basis-1/4 ">
                 <div className="p-2">
-                    <Card className="w-full max-w-[300px] mx-auto">
+                    <Card className="w-full max-w-[350px] mx-auto">
                         <Image className="mb-1 rounded-t-md object-cover transform scale-100" src={'/propimage-1.png'} alt="Property Image" width={299} height={235}/>
                         <CardContent>
                             <div className="flex w-full text-xs tracking-wider mt-2 mb-2">
