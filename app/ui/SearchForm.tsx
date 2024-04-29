@@ -34,13 +34,12 @@ const SearchForm = () => {
 
         <div className=" w-full">
             <FormField
-                className=" border-white"
                 control={form.control}
                 name="Address"
                 render={({ field }) => (
                     <FormItem>
                     <FormControl>
-                        <Input placeholder="Search by Address" class="w-full py-2 px-4 text-xl" />
+                        <Input placeholder="Search by Address" className="w-full py-2 px-4 text-xl border-0 !outline-none" />
                     </FormControl>
                     </FormItem>
                 )}
