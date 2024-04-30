@@ -30,7 +30,7 @@ const Properties2 = () => {
                 <div className="absolute inset-0 bg-gradient-to-b from-white to-gray-500 opacity-10"></div>
 
                 <div className="absolute inset-0 flex items-start justify-start">
-                  <div className="text-gray-600 text-xs  m-2 border-1 bg-red-600 text-white font-bold p-1 rounded-md">
+                  <div className="text-gray-100 text-xs  m-2 border-1 bg-red-600 font-bold p-1 rounded-md">
                     NEW
                   </div>
                 </div>
