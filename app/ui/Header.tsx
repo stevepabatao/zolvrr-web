@@ -5,11 +5,11 @@ import Explore from "./Explore";
 const Header = () => {
   return (
     <div>
-        <Navbar />
-        <Hero />
-        <Explore />
+      <Navbar />
+      <Hero />
+      <Explore />
     </div>
-    
+
   )
 }
 

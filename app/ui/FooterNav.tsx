@@ -4,7 +4,7 @@ import Link from "next/link"
 
 const FooterNav = () => {
   return (
-    <div className="py-20">
+    <div className=" py-5 lg:py-20">
         <div className="text-white flex justify-center items-center">
             <ul className=" md:flex gap-10">
                 <Link href={'/'}>
@@ -57,7 +57,7 @@ const FooterNav = () => {
            <div><FacebookIcon  className="text-white" size={16}/></div>
            <div><Twitter className="text-white" size={16}/></div>
            <div><Instagram  className="text-white" size={16}/></div>
-           <div><Linkedin className="text-white" size={16}/></div>
+           <div><Linkedin className="text-white"size={16}/></div>
         </div>
     </div>
 

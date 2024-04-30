@@ -9,9 +9,10 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Separator } from "@/components/ui/separator"
+import { Search } from "lucide-react";
 
 
-const SearchForm = () => {
+const SearchForm2 = () => {
     const form = useForm();
 
     return (
@@ -26,7 +27,7 @@ const SearchForm = () => {
             </div>
             <Separator className="my-1" />
             <div className="flex flex-col sm:flex-row items-start gap-1 rounded-lg">
-
+                <Search size={45} className="hidden md:flex"/>
                 <Form {...form}>
                     <FormField
                         control={form.control}
@@ -39,7 +40,7 @@ const SearchForm = () => {
                     >
                     </FormField>
 
-                    <Button type="submit" className="housal-button py-1 px-2 text-sm sm:text-lg ">
+                    <Button type="submit" className="housal-button py-1 px-2 text-sm sm:text-lg w-full lg:w-1/6">
                         Search
                     </Button>
                 </Form>
@@ -48,4 +49,4 @@ const SearchForm = () => {
     );
 };
 
-export default SearchForm;
+export default SearchForm2;

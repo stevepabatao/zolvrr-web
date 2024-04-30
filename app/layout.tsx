@@ -9,13 +9,6 @@ const roboto = Roboto({
   display: 'swap',
 })
 
-export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  maximumScale: 1,
-  userScalable: false
-}
-
 export const metadata: Metadata = {
   title: "Zolvrr: Find, Buy, or Sell: Your Ideal Property Awaits",
   description: "Your Full Service Real Estate Brokerage for Buying, Selling, Renting and Investing Properties in Philippines ",
