@@ -13,7 +13,7 @@ const Navbar = () => {
 
     const toggleNavbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen);
-      };
+    };
 
     const scrollHeader = () => {
         if (window.scrollY >= 20) {
@@ -41,31 +41,23 @@ const Navbar = () => {
                     alt="Our Company Logo"
                 />
                 <ul className="hidden md:flex gap-10 text-xs tracking-wider">
-                    <Link href={'/'}>
-                        <li className="hover:text-primary font-medium  cursor-pointer">
-                            RENT
-                        </li>
-                    </Link>
-                    <Link href={'/'}>
-                        <li className="hover:text-primary font-medium  cursor-pointer">
-                            BUY
-                        </li>
-                    </Link>
-                    <Link href={'/'}>
-                        <li className="hover:text-primary font-medium  cursor-pointer">
-                            NEW PROJECTS
-                        </li>
-                    </Link>
-                    <Link href={'/'}>
-                        <li className="hover:text-primary font-medium  cursor-pointer">
-                            EXPLORE
-                        </li>
-                    </Link>
-                    <Link href={'/'}>
-                        <li className="hover:text-primary font-medium  cursor-pointer">
-                            COMMERCIAL
-                        </li>
-                    </Link>
+
+                    <li className="hover:text-primary font-medium  cursor-pointer">
+                        <Link href={'/'}>RENT</Link>
+                    </li>
+                    <li className="hover:text-primary font-medium  cursor-pointer">
+                        <Link href={'/'}>BUY</Link>
+                    </li>
+                    <li className="hover:text-primary font-medium  cursor-pointer">
+                        <Link href={'/'}>NEW PROJECTS</Link>
+                    </li>
+                    <li className="hover:text-primary font-medium  cursor-pointer">
+                        <Link href={'/'}>EXPLORE</Link>
+                    </li>
+                    <li className="hover:text-primary font-medium  cursor-pointer">
+                        <Link href={'/'}>COMMERCIAL</Link>
+                    </li>
+
                 </ul>
             </div>
             <div className="hidden md:flex gap-5 items-center text-xs tracking-wider">
@@ -82,7 +74,7 @@ const Navbar = () => {
                     {mobileDrawerOpen ? <X /> : <Menu />}
                 </button>
             </div>
-            
+
         </div>
     )
 }
