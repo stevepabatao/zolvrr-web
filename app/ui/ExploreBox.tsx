@@ -16,7 +16,7 @@ const ExploreBox = () => {
             height={235}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-yellow-500 to-green-500 opacity-50"></div>
-          <div className="absolute inset-0 flex items-center justify-center text-white text-lg font-bold">
+          <div className="absolute inset-0 flex items-center justify-center text-white text-xl font-bold">
             Neighborhoods
           </div>
         </div>
@@ -30,7 +30,7 @@ const ExploreBox = () => {
               height={115}
             />
             <div className="absolute inset-0 bg-gradient-to-b from-yellow-500 to-green-500 opacity-50"></div>
-            <div className="absolute inset-0 flex items-center justify-center text-white text-lg font-bold">
+            <div className="absolute inset-0 flex items-center justify-center text-white text-xl font-bold">
               Developers
             </div>
           </div>
@@ -43,7 +43,7 @@ const ExploreBox = () => {
               height={115}
             />
             <div className="absolute inset-0 bg-gradient-to-b from-yellow-500 to-green-500 opacity-50"></div>
-            <div className="absolute inset-0 flex items-center justify-center text-white text-lg font-bold">
+            <div className="absolute inset-0 flex items-center justify-center text-white text-xl font-bold">
               Projects
             </div>
           </div>

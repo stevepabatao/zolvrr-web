@@ -33,7 +33,7 @@ const Cta = () => {
             Explore from Apartments, land, builder floors,<br />
             villas and more
           </p>
-          <Button type="submit" className="housal-button">Explore Buying</Button>
+          <Button type="submit" className="housal-button text-lg">Explore Buying</Button>
         </div>
       </div>
     </div>

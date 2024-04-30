@@ -1,4 +1,4 @@
-import { Facebook, Twitter } from "lucide-react"
+import { FacebookIcon, Instagram, Linkedin, Twitter } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -8,28 +8,40 @@ const FooterNav = () => {
         <div className="text-white flex justify-center items-center">
             <ul className=" md:flex gap-10">
                 <Link href={'/'}>
-                    <li className="hover:text-primary font-medium text-sm cursor-pointer">
+                    <li className="footer font-medium text-sm cursor-pointer">
                      About Us
                     </li>  
                 </Link>
-                <li className="hover:text-primary font-medium text-sm cursor-pointer">
-                    Contact Us 
-                </li>
-                <li className="hover:text-primary font-medium text-sm cursor-pointer">
+                <Link href={'/'}>
+                    <li className="footer font-medium text-sm cursor-pointer">
+                     Contact Us
+                    </li>  
+                </Link>
+                <Link href={'/'}>
+                    <li className="footer font-medium text-sm cursor-pointer">
                     News and Articles
-                </li>
-                <li className="hover:text-primary font-medium text-sm cursor-pointer">
+                    </li>  
+                </Link>
+                <Link href={'/'}>
+                    <li className="footer font-medium text-sm cursor-pointer">
                     Projects 
-                </li>
-                <li className="hover:text-primary font-medium text-sm cursor-pointer">
+                    </li>  
+                </Link>
+                <Link href={'/'}>
+                    <li className="footer font-medium text-sm cursor-pointer">
                     Privacy Policy
-                </li>
-                <li className="hover:text-primary font-medium text-sm cursor-pointer">
+                    </li>  
+                </Link>
+                <Link href={'/'}>
+                    <li className="footer font-medium text-sm cursor-pointer">
                     Terms and Condition
-                </li>
-                <li className="hover:text-primary font-medium text-sm cursor-pointer">
+                    </li>  
+                </Link>
+                <Link href={'/'}>
+                    <li className="footer font-medium text-sm cursor-pointer">
                     Site map
-                </li>
+                    </li>  
+                </Link>
             </ul>
         </div>
         <div className="flex justify-center items-center pt-10">
@@ -40,10 +52,12 @@ const FooterNav = () => {
                 alt="Our Company Logo"
             />
         </div>
-        <div className="flex justify-center items-center pt-10">
+        <div className="flex justify-center items-center pt-10 gap-5">
            <div className="text-white">Follow us:</div>
-           <div><Twitter color="text-white"/></div>
-           <div><Facebook color="text-white"/></div>
+           <div><FacebookIcon  className="text-white" size={16}/></div>
+           <div><Twitter className="text-white" size={16}/></div>
+           <div><Instagram  className="text-white" size={16}/></div>
+           <div><Linkedin className="text-white" size={16}/></div>
         </div>
     </div>
 

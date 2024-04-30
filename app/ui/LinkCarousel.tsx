@@ -28,7 +28,7 @@ const LinkCarousel = () => {
         </div>
         <div className="mb-10 min-w-screen"> 
             <div>
-                <div className="flex flex-wrap gap-5 justify-center">
+                <div className="flex flex-wrap gap-10 justify-center">
 
                     <div className="flex flex-col items-center">
                         <Image className="mb-1 rounded-xl" src="https://images.pexels.com/photos/3935333/pexels-photo-3935333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
@@ -36,7 +36,7 @@ const LinkCarousel = () => {
                         <div className="border border-none shadow-2xl rounded-lg mt-[-40px] w-[235px] bg-white p-5 flex flex-col items-center justify-center">
                             <h3>For Rent</h3>
                             <p className="text-xs mb-5">With an advanced Custom Keyword Search and 35+ Filter categories, Housal creates a seamless online Home Search Experience.</p> 
-                            <Button type="submit" className=" housal-button">For Rent</Button>               
+                            <Button type="submit" className=" housal-button text-lg">For Rent</Button>               
                         </div>                
                     </div>
 

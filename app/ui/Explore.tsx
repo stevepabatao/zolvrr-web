@@ -8,7 +8,7 @@ const Explore = () => {
             <Properties />
          </div>
         <div className="text-center p-6 ">
-            <Button type="submit" className=" housal-button">CLICK FOR MORE</Button>
+            <Button type="submit" className=" housal-button text-lg">CLICK FOR MORE</Button>
         </div>
     </div>
   )

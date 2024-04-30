@@ -35,33 +35,41 @@ const Navbar = () => {
                 height={150}
                 alt="Our Company Logo"
             />
-            <ul className="hidden md:flex gap-10">
+            <ul className="hidden md:flex gap-10 text-xs tracking-wider">
                 <Link href={'/'}>
-                    <li className="hover:text-primary font-medium text-sm cursor-pointer">
+                    <li className="hover:text-primary font-medium  cursor-pointer">
                         RENT
                     </li>  
                 </Link>
-                <li className="hover:text-primary font-medium text-sm cursor-pointer">
-                    BUY
-                </li>
-                <li className="hover:text-primary font-medium text-sm cursor-pointer">
-                    NEW PROJECTS
-                </li>
-                <li className="hover:text-primary font-medium text-sm cursor-pointer">
-                    EXPLORE
-                </li>
-                <li className="hover:text-primary font-medium text-sm cursor-pointer">
-                    COMMERCIAL
-                </li>
+                <Link href={'/'}>
+                    <li className="hover:text-primary font-medium  cursor-pointer">
+                        BUY
+                    </li>  
+                </Link>
+                <Link href={'/'}>
+                    <li className="hover:text-primary font-medium  cursor-pointer">
+                        NEW PROJECTS
+                    </li>  
+                </Link>
+                <Link href={'/'}>
+                    <li className="hover:text-primary font-medium  cursor-pointer">
+                        EXPLORE
+                    </li>  
+                </Link>
+                <Link href={'/'}>
+                    <li className="hover:text-primary font-medium  cursor-pointer">
+                        COMMERCIAL
+                    </li>  
+                </Link>
             </ul>
         </div>
-        <div className="hidden md:flex gap-2 items-center">
+        <div className="hidden md:flex gap-5 items-center text-xs tracking-wider">
             <Button className="flex gap-2 housal-button">
                 <Plus  className="h-5 w-5"/>POST YOUR PROPERTY 
             </Button>
-            <Image className="rounded-full" src="/noavatar.png" alt="" width={30} height={30}/>
+            <Image className="rounded-full bottom-2 border-2" src="/noavatar.png" alt="" width={30} height={30}/>
             <Link href={'/'} >
-                <span className="hover:text-primary font-medium text-sm cursor-pointer">SIGN IN</span>
+                <span className="hover:text-primary font-medium  cursor-pointer">SIGN IN</span>
             </Link>
         </div>
     </div>
