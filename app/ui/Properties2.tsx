@@ -22,8 +22,8 @@ const Properties2 = () => {
       <div className="container flex flex-wrap items-center justify-center">
 
         {Array.from({ length: 4 }).map((_, index) => (
-          <div className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-            <Card key={index} className="max-w-[300px] mx-auto shadow-2xl">
+          <div key={index} className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+            <Card  className="max-w-[300px] mx-auto shadow-2xl">
               <div className="relative">
                 <Image className="mb-1 rounded-t-md object-cover transform scale-100" src={'/propimage-1.png'} alt="Property Image" width={299} height={235} />
                
