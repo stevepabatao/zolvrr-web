@@ -17,7 +17,7 @@ const SearchForm = () => {
 
   return (
     <div className="mt-10 bg-white p-6 filter drop-shadow-lg rounded-xl">
-        <div className="flex block ">
+        <div className="flex ">
             <Button className=" housal-tab px-4 text-sm rounded-t-lg rounded-b-none">
                 Buy
             </Button> 
@@ -37,7 +37,7 @@ const SearchForm = () => {
                 render={({ field }) => (
                     <FormItem>
                     <FormControl>
-                        <Input placeholder="Search by Address" className="w-full py-2 px-4 text-xl border-0 !outline-none focus:border-blue" />
+                        <Input placeholder="Search by Address" className="w-full py-2 px-4 text-xl border-0 focus-visible:ring-transparent" />
                     </FormControl>
                     </FormItem>
                 )}

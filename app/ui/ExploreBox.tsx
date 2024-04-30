@@ -6,7 +6,7 @@ const ExploreBox = () => {
       <h2 className="text-center text-2xl md:text-3xl lg:text-4xl tracking-wider mb-20">
         Explore with <strong>Zolvrr</strong>
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-h-[350px]">
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-4 max-h-[350px]">
         <div className="col-span-1 relative">
           <Image
             src="https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg"

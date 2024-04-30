@@ -29,7 +29,7 @@ const Navbar = () => {
     <div className={`flex justify-between px-10 fixed top-0 w-full z-10 ${header ? 'bg-white py-3' : 'py-5'} transition duration-2000 ease-in-out`}>
         <div className="flex gap-12 items-center">        
             <Image
-                className={ header ? "mr-2 h-[20px] w-[100px]" : "mr-2 h-[23px] w-[110px]" }
+                className={`${header ? 'mr-2 h-[20px] w-[100px]' : 'mr-2 h-[23px] w-[110px]' } transition duration-2000 ease-in-out`}
                 src={'/logo.png'}
                 width={150}
                 height={150}
@@ -67,7 +67,7 @@ const Navbar = () => {
             <Button className="flex gap-2 housal-button">
                 <Plus  className="h-5 w-5"/>POST YOUR PROPERTY 
             </Button>
-            <Image className="rounded-full bottom-2 border-2" src="/noavatar.png" alt="" width={30} height={30}/>
+            <Image className="rounded-full bottom-2 border-gray-200" src="/noavatar.png" alt="" width={30} height={30}/>
             <Link href={'/'} >
                 <span className="hover:text-primary font-medium  cursor-pointer">SIGN IN</span>
             </Link>

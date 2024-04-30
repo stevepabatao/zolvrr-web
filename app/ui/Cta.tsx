@@ -22,7 +22,7 @@ const Cta = () => {
             alt="Call to Action Image"
           />
         </div>
-        <div className="text-left  flex flex-col justify-start">
+        <div className="text-left  flex flex-col justify-start lg:h-96" >
           <p className="text-gray-600 tracking-widest text-md mb-3">
             BUY A HOME
           </p>
