@@ -199,6 +199,30 @@
   }
 }
 
+@media screen and (max-width : 480px) {
+  .building-bg {
+    background: url('../public/m-building.png');
+    background-repeat: repeat-x;
+  }
+
+  .main-bg {
+    background: url('../public/m-background.png');
+    background-repeat: repeat-x;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .building-bg {
+    background: url('../public/m-building.png');
+    background-repeat: repeat-x;
+  }
+
+  .main-bg {
+    background: url('../public/m-background.png');
+    background-repeat: repeat-x;
+  }
+}
+
 .footer {
   background-color: #001F3F;
 }

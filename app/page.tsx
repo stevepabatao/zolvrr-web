@@ -8,7 +8,7 @@ import Footer from "./ui/Footer";
 
 export default function Home() {
   return (
-    <div className="main-bg min-h-screen min-w-full">
+    <div className="main-bg min-h-screen min-w-screen lg:min-w-full">
       <Header />
       <LinkCarousel />
       <Cta />
