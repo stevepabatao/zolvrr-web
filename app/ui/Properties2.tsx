@@ -25,7 +25,7 @@ const Properties2 = () => {
         {Array.from({ length: 4 }).map((_, index) => (
           <Suspense fallback={<Loading />}>
             <div key={index} className="p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-              <Card className="max-w-[300px] mx-auto shadow-2xl">
+              <Card key={index}  className="max-w-[300px] mx-auto shadow-2xl">
                 <div className="relative">
                   <Image className="mb-1 rounded-t-md object-cover transform scale-100" src={'/propimage-1.png'} alt="Property Image" width={299} height={235} />
 
